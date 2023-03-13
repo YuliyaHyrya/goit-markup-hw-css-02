@@ -1,0 +1,134 @@
+:root {
+  --primary-font: "Roboto", sans-serif;
+  --secondary-font: "Raleway", sans-serif;
+  --color-link: #404bbf;
+  --primary-color-text: #434455;
+  --secondary-color-text: #2e2f42;
+  --theme-dark-color-text: #ffffff;
+  --color-WEB-background-btn: #4d5ae5;
+  --color-background-team-btn-other: #f4f4fd;
+}
+.body {
+  font-family: var(--primary-font);
+  color: var(--primary-color-text);
+}
+.list {
+  list-style: none;
+}
+.link {
+  text-decoration: none;
+}
+.link:hover,
+.link:focus {
+  text-decoration: underline;
+  color: var(--color-link);
+}
+.logotype {
+  font-family: var(--secondary-font);
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.16;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--color-WEB-background-btn);
+}
+.menu-link {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--secondary-color-text);
+  margin-top: 24px;
+}
+
+.contact-link {
+  font-style: normal;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+  color: var(--secondary-color-text);
+}
+.contact-link:hover,
+.link:focus {
+  color: var(--color-link);
+}
+.title-hero {
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 1.07;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: var(--theme-dark-color-text);
+}
+.hero {
+  background: var(--secondary-color-text);
+}
+.modal-btn {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: var(--theme-dark-color-text);
+  background: var(--color-WEB-background-btn);
+  cursor: pointer;
+}
+.modal-btn:hover,
+.modal-btn:focus {
+  color: var(--theme-dark-color-text);
+  background: var(--color-link);
+}
+.title-h2 {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: var(--secondary-color-text);
+}
+.title-h3 {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--secondary-color-text);
+}
+.text {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+.team {
+  background: var(--color-background-team-btn-other);
+}
+.team-item {
+  background: var(--theme-dark-color-text);
+}
+
+.btn-all {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: var(--theme-dark-color-text);
+  background: var(--color-link);
+  cursor: pointer;
+}
+.btn-other {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: var(--color-WEB-background-btn);
+  background: var(--color-background-team-btn-other);
+  cursor: pointer;
+}
+.footer {
+  background: var(--secondary-color-text);
+}
+.theme-dark {
+  color: var(--theme-dark-color-text);
+}
+.theme-light {
+  color: var(--secondary-color-text);
+}
